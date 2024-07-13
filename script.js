@@ -12,3 +12,16 @@ function sliceButton(){
     document.querySelector('#sliceResult').innerText = slicedString;
 }
 
+//string change case
+function toUpperCase(){
+    const inputString = prompt("Enter a string");
+    const upperString = inputString.toUpperCase();
+    alert(upperString);
+};
+
+function toLowerCase(){
+    const inputString = prompt("Enter a string");
+    const lowerString = inputString.toLowerCase();
+    alert(lowerString);
+};
+
